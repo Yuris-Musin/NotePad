@@ -1,4 +1,4 @@
-package com.musin.notepad
+package com.musin.notepad.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.musin.notepad.ui.theme.NotePadTheme
+import com.musin.notepad.presentation.ui.theme.NotePadTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
