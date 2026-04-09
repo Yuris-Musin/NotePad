@@ -1,4 +1,4 @@
-package com.musin.notepad.ui.theme
+package com.musin.notepad.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
