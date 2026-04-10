@@ -1,8 +1,10 @@
 package com.musin.notepad.domain
 
-class DeleteNoteUseCase {
+class DeleteNoteUseCase(
+    private val repository: NotesRepository
+) {
 
-    operator fun invoke(id: Int) {
-        TODO()
+    operator fun invoke(noteId: Int) {
+        repository.deleteNote(noteId)
     }
 }

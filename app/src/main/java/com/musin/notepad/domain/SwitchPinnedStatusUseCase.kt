@@ -1,8 +1,10 @@
 package com.musin.notepad.domain
 
-class SwitchPinnedStatusUseCase {
+class SwitchPinnedStatusUseCase(
+    private val repository: NotesRepository
+) {
 
     operator fun invoke(noteId: Int) {
-        TODO()
+        repository.switchPinnedStatus(noteId)
     }
 }
